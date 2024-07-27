@@ -21,13 +21,13 @@ To get started with contributing to this project, you'll need to:
 2. **Clone the Repository**
    - Clone the forked repository to your local machine using:
      ```bash
-     git clone https://github.com/YOUR-USERNAME/RpCreate-Translations.git
+     git clone https://github.com/RpCreate/translations.git
      ```
 
 3. **Navigate to the Project Directory**
    - Change directory to the project folder:
      ```bash
-     cd RpCreate-Translations
+     cd translations
      ```
 
 4. **Install Dependencies**
@@ -61,20 +61,6 @@ We welcome contributions from the community! Here's how you can help:
 5. **Submit a Pull Request**
    - Go to the original repository on GitHub and submit a pull request from your forked repository. Make sure to fill in the details in the pull request template.
 
-## Directory Structure
-The repository is structured as follows:
-
-RpCreate-Translations/
-├── README.md
-├── messages.en.yml/
-├── messages.fr.yml/
-├── messages.XX.yml/
-└── .github/
-└── PULL_REQUEST_TEMPLATE.md
-
-- **README.md**: This file.
-- **translations/**: Contains subdirectories for each language.
-- **.github/**: Contains GitHub-specific files, such as pull request templates.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
