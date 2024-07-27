@@ -1,0 +1,384 @@
+error:
+  not_found: "Page non trouvée"
+email:
+  subject:
+    verification: "Vérification de votre adresse email"
+    reset_password: "Réinitialisation de votre mot de passe"
+  title:
+    hello: "Bonjour!"
+    goodBye: "À bientôt!"
+  verification:
+    email:
+      message1: "Pour vérifier votre adresse email, veuillez cliquer sur le lien ci-dessous"
+      message2: "Le lien est valable jusqu'au expiresAt"
+global:
+  next: "Suivant"
+  previous: "Précédent"
+  select: "Sélectionner"
+  selectGames:
+    label: "Sélectionnez un jeu"
+  inactive: "Inactif"
+  active: "Actif"
+  total: "Total"
+  create: "Créer"
+  product:
+    name: "Nom"
+    description: "Description"
+    price: "Prix"
+    chatGPT:
+      description: "Utilisez l'ia pour générer des descriptions de personnages, de PNJ ou pour vous aider à écrire des scénarios de campagne"
+  connection:
+    not:
+      secure: "Attention, vous n'êtes pas en mode sécurisé. Vos informations peuvent être interceptées.
+            Pour votre sécurité, toutes les fonctionnalités liées aux paiements sont désactivés"
+  save: Sauvegarder
+  back: Retour
+  submit: Envoyer
+  close: Fermer
+  preview: Prévisualiser
+  form: Formulaire
+  delete: Supprimer
+  edit: Modifier
+  update: Mettre à jour
+  add: Ajouter
+  registration_success: "Votre compte a été créé avec succès"
+  registration_error: "Une erreur s'est produite lors de la création de votre compte. Veuillez réessayer"
+  facultative_field: "(optionnel)"
+  yes: "Oui"
+  no: "Non"
+  show: "Voir"
+  women: "Femme"
+  men: "Homme"
+  other: "Autre"
+  nav:
+    home: "Accueil"
+    community:
+      title: "Communauté"
+      characters: "Personnages"
+      campaigns: "Campagnes"
+    creator:
+      title: "Créateur"
+      character: "Personnage"
+      campaign: "Campagne"
+    profile: "Profil"
+    admin: "Administration"
+    logout: "Déconnexion"
+    login: "Se connecter"
+    register: "S'inscrire"
+    settings: "Paramètres"
+    payment_method: "Moyen de paiement"
+    subscriptions: "Abonnements"
+  breadcrumb:
+    home: "Accueil"
+  bbCode:
+    bold: "Gras"
+    italic: "Italique"
+    underline: "Souligné"
+    strike: "Barré"
+    quote: "Citation"
+    quest: "Quête"
+    character: "Joueur"
+maintenance:
+  title: "Maintenance"
+  message1: "Nous reviendrons"
+  message2: "Nous sommes occupés à mettre à jour le site pour vous"
+  message3: "Merci de revenir plus tard ou de regarder les réseaux sociaux en attendant"
+pages:
+  home:
+    title: "Bienvenue sur app_name"
+    description: "Bienvenue sur app_name, la plateforme pour créer des personnages et gérer des campagnes pour vos jeux de rôle. Que vous soyez maître de jeu ou joueur, app_name offre une expérience conviviale pour améliorer vos aventures de RPG. Créez des personnages uniques, concevez des scénarios palpitants et embarquez pour des quêtes épiques avec vos amis. Commencez dès maintenant et donnez vie à vos campagnes !"
+    title_action: "Commencer dès maintenant !"
+    login:
+      title: "Se connecter"
+    register:
+      title: "Rejoins la communauté"
+    create:
+      campaign:
+        title: Campagne
+      character:
+        title: Personnage jouable
+  feedback:
+    title: Suggestions
+    description: "Bienvenue dans la section des suggestions. Vous pouvez ici partager vos idées pour améliorer le site. N'hésitez pas à proposer des fonctionnalités, des améliorations ou des corrections. Votre avis est important pour nous !"
+  scenario:
+    index:
+      title: "Scénarios de la campagne : campaign_name"
+      description: "Découvrez les scénarios de la campagne et suivez l'avancement de vos aventures"
+    create:
+      title: "Créer un scénario"
+      description: "Créez un scénario pour votre campagne et définissez les détails, les objectifs et les récompenses pour vos joueurs"
+    update:
+        title: "Modifier le scénario : scenario_name"
+        description: "Modifiez les détails du scénario, ajoutez ou supprimez des objectifs, des récompenses et des conditions de réussite pour personnaliser votre aventure"
+    flash:
+      created: "Le scénario a été créé avec succès"
+      updated: "Le scénario a été mis à jour avec succès"
+      deleted: "Le scénario a été supprimé avec succès"
+  quest:
+    index:
+      title: "Quêtes de la campagne : campaign_name"
+      description: "Découvrez les quêtes de la campagne et suivez l'avancement de vos aventures"
+    create:
+      title: "Créer une quête"
+      description: "Créez une quête pour votre campagne et définissez les objectifs, les récompenses et les conditions de réussite"
+    update:
+        title: "Modifier la quête : quest_name"
+        description: "Modifiez les détails de la quête, ajoutez ou supprimez des objectifs, des récompenses et des conditions de réussite pour personnaliser votre aventure"
+    form:
+      heading: "Créer une quête"
+      title: "Titre"
+      content: "Contenu"
+      nb_minimal_players: "Nombre minimal de joueurs"
+      is_main: "Quête principale ?"
+      objective: "Objectif"
+      rewards: "Récompenses"
+      place: "Lieu"
+      necessary_object: "Objets nécessaires"
+    flash:
+      created: "La quête a été créée avec succès"
+      updated: "La quête a été mise à jour avec succès"
+      deleted: "La quête a été supprimée avec succès"
+  npc:
+    index:
+      title: "PNJ de la campagne : campaign_name"
+      description: "Découvrez les PNJ de la campagne et suivez l'avancement de vos aventures"
+    create:
+      title: "Créer un PNJ"
+      description: "Créez un PNJ pour votre campagne et définissez les détails, la personnalité et les relations avec les autres PNJ"
+    update:
+        title: "Modifier le PNJ : npc_name"
+        description: "Modifiez les détails du PNJ, ajoutez ou supprimez des attributs, des relations et des liens avec les autres PNJ pour personnaliser votre aventure"
+    form:
+      heading: "Créer un PNJ"
+      image:
+        label: "Image"
+        help: "L'image du PNJ (jpg, png, webp)"
+      name:
+        label: "Nom"
+        help: "Le nom du PNJ"
+      localisation:
+        label: "Localisation"
+        help: "Où se trouve le PNJ"
+      is_main:
+        label: "PNJ principal ?"
+        help: "Est-ce un PNJ principal ?"
+      likes:
+        label: "Aime"
+        help: "Ce que le PNJ aime, est-ce qu'il aime les demi-orques ou les elfes ?"
+      hates:
+        label: "Déteste"
+        help: "Ce que le PNJ déteste, est-ce qu'il déteste les nains ou les gobelins ?"
+      personality:
+        label: "Personnalité"
+        help: "La personnalité du PNJ"
+      situation:
+        label: "Situation"
+        help: "Est-ce qu'il est en danger, est-ce qu'il est en train de se battre ?"
+      talent:
+        label: "Talent/Don"
+        help: "Le talent ou le don du PNJ"
+      resources:
+        label: "Ressources"
+        help: "Les ressources que portent le PNJ"
+      affiliation:
+        label: "Affiliation"
+        help: "Quelle genre de relation le PNJ a avec les autres PNJ ?"
+      type:
+        label: "Race"
+        help: "La race du PNJ"
+      profession:
+        label: "Profession"
+        help: "La profession du PNJ"
+      links:
+        label: "Liens"
+        help: "Pour supprimer un lien, maintenez la touche 'Ctrl' enfoncée et cliquez sur le personnage"
+    flash:
+      error:
+        character_type_not_found: "Le type de personnage n'a pas été trouvé"
+        profession_not_found: "La profession n'a pas été trouvée"
+      attributes_added: "Les attributs ont été ajoutés avec succès"
+      created: "Le PNJ a été créé avec succès"
+      updated: "Le PNJ a été mis à jour avec succès"
+      deleted: "Le PNJ a été supprimé avec succès"
+  login:
+    remember_me: "Se souvenir de moi"
+    not_have_account: "Vous n'avez pas de compte ?"
+    forgot_password: "Mot de passe oublié ?"
+  registration:
+    error:
+      email_already_exists: "Cet email est déjà utilisé"
+      username_already_exists: "Ce nom d'utilisateur est déjà utilisé"
+      email_invalid: "Email invalide"
+  footer:
+    about: A propos
+    legal_notice: Mentions légales
+    terms_of_use: Conditions d'utilisation
+  index:
+    choice_create:
+      title: "Créer un personnage ou une campagne"
+      character:
+        img:
+          alt: "Créer un personnage pour COF"
+      campaign:
+        img:
+          alt: "Créer une campagne pour COF"
+  campaign:
+    create:
+      title: "Créer une campagne"
+      description: "Créez une campagne pour vos parties de jeu de rôle. Ajoutez des scénarios, des quêtes, des PNJ et des joueurs pour une expérience de jeu immersive"
+    update:
+      title: "Modifier la campagne : campaign_name"
+      description: "Modifiez les détails de votre campagne, ajoutez ou supprimez des scénarios, des quêtes, des PNJ et des joueurs pour personnaliser votre expérience de jeu"
+    add_player:
+      title: "Ajouter un joueur à la campagne : campaign_name"
+      description: "Ajoutez un joueur à votre campagne pour qu'il puisse participer à vos aventures de jeu de rôle"
+    title:
+      start: "La campagne de "
+    nav:
+      index: "Campagne"
+      characters: "Personnages"
+      scenario: "Scénarios"
+      quests: "Quêtes"
+      npc: "PNJ"
+    scenario:
+      title: "Scénarios"
+      list:
+        title: "Titre"
+        content: "Contenu"
+        actions: "Actions"
+    master: "Maître du jeu "
+    createdBy: "Créé par "
+    addPlayer:
+      title: "Ajouter un joueur"
+      placeholder: "Nom du joueur"
+      label: "Nom du joueur"
+      chooseCharacter: "Choisissez un personnage"
+    edit:
+      description_help: "Attention, si vous ajoutez des quêtes ou des scénarios, ils seront visibles par tout le monde"
+    modal:
+      addOrEditMaster:
+        title: "Ajouter ou modifier un maître du jeu"
+        placeholder: "Nom du maître du jeu"
+        label: "Nom du maître du jeu"
+    menu:
+      edit: "Modifier la campagne"
+      add:
+        master: "Ajouter un maître du jeu"
+        player: "Ajouter un joueur"
+        quest: "Ajouter une quête"
+        scenario: "Ajouter un scénario"
+  about:
+    seo:
+      title: "Création de Personnages et Gestion de Campagnes de JDR - À Propos de nous"
+      description: "Découvrez l'histoire et la vision de app_name, une plateforme communautaire dédiée à la création de personnages et à la gestion de campagnes pour les jeux de rôle. Nous sommes une initiative passionnée, guidée par le désir d'offrir une expérience immersive et conviviale aux passionnés de JDR. Rejoignez notre communauté où chacun est libre de partager ses idées pour améliorer le site. Explorez nos outils et nos fonctionnalités et plongez dans des aventures épiques avec app_name"
+    title: "Bienvenue sur app_name"
+    title1: "À propos de nous :"
+    text: "app_name a commencé comme un projet passionné entre amis, avec pour objectif de simplifier la création de personnages et la gestion de campagnes pour nos jeux de rôle. Initialement conçu pour notre propre usage, le site s'est rapidement développé pour offrir une expérience complète aux passionnés de jeux de rôle"
+    title2: "Notre Histoire"
+    text2: "Notre parcours a débuté avec le désir de créer des personnages et des aventures pour nos parties de jeu de rôle. Guidés par cette passion, nous avons développé des outils pratiques et conviviaux pour optimiser notre expérience de jeu. Au fil du temps, nous avons perfectionné notre plateforme, ajoutant de nouvelles fonctionnalités et améliorant l'interface pour offrir la meilleure expérience possible à nos utilisateurs"
+    title3: "Notre Vision"
+    text3: "Aujourd'hui, app_name est le fruit de notre engagement envers la communauté des jeux de rôle. Notre plateforme est spécialement conçue pour faciliter la création de personnages et la gestion de campagnes, en commençant par le jeu \"Chroniques Oubliées Fantasy\". Cependant, notre vision ne s'arrête pas là. Nous aspirons à devenir une ressource incontournable pour les passionnés de jeux de rôle en offrant des outils et des fonctionnalités pour une variété de systèmes de jeu. Notre objectif ultime est de fournir à chaque maître du jeu les moyens de créer des expériences de jeu mémorables et immersives pour leurs joueurs"
+    text4: "app_name est avant tout un projet fait par passion et par cœur. Il est un site communautaire où chacun est libre de partager ses idées pour améliorer le site. Il suffit de créer un compte et de se rendre sur le menu \"Suggestions\". Les idées seront étudiées, et si elles collent avec la vision du développeur et de la communauté, elles seront approuvées et mises en place. De plus, les utilisateurs peuvent suivre le développement du site ou discuter directement avec d'autres utilisateurs sur Discord"
+    text5: "Rejoignez-nous dans cette aventure et découvrez tout ce que app_name a à offrir !"
+  creator:
+    character:
+        title: "Créer un nouveau personnage"
+    gender:
+      label: "Genre"
+      male: "Homme"
+      female: "Femme"
+      other: "Autre"
+    breed:
+      label: "Race"
+    profession:
+      label: "Profession"
+    age:
+      label: "Âge"
+    size:
+      label: "Taille"
+    weight:
+      label: "Poids"
+    name:
+      label: "Nom"
+      placeholder: "Nom"
+      suggestButton: "Cliquer ici pour avoir une suggestion"
+      missing: "Le nom est manquant"
+    description:
+      label: "Description"
+      help: "Décrivez votre personnages, ses motivations, son histoire, etc"
+    attributes:
+      label: "Caractéristiques"
+      roll: "Lancer les dés"
+      description: "Il est temps de définir les statistiques de votre personnage. Pour cela, veuillez simuler un lancer de dés"
+      explain: "Pour chaque caractéristique, vous allez lancer 4 dés, les 3 meilleurs seront gardés et additionnés pour former votre statistique"
+      statistics:
+        too_low: "Si la somme des mods est inférieure à 3, votre personnage est considéré comme injouable. Vous pouvez relancer les dés, ou continuer si vous le souhaitez à vos risques et périls"
+  community:
+    seo:
+      title: 'Taverne des Héros : Partagez vos Personnages et Campagnes!'
+      description: "Bienvenue à la Taverne des Héros, l'endroit où les aventuriers se réunissent pour partager leurs exploits et leurs créations ! Plongez dans un monde de magie et d'aventure en explorant les personnages uniques et les récits épiques créés par la communauté. Que vous soyez un maître du jeu talentueux ou un joueur passionné, cet espace est dédié à la découverte et à l'inspiration. Parcourez les archives pour découvrir des personnages fascinants et des campagnes captivantes, ou partagez vos propres créations pour que d'autres puissent s'en inspirer. Rejoignez-nous à la Taverne des Héros et préparez-vous à vivre des aventures inoubliables dans les mondes fantastiques du jeu de rôle"
+    title: 'Communauté'
+    description: "Bienvenue dans la communauté de Chroniques Oubliées Fantasy. Vous pouvez ici partager vos personnages, vos campagnes et vos aventures"
+    characters:
+      title: 'Personnages'
+    campaigns:
+      title: 'Campagnes'
+  profile:
+    settings:
+      email:
+        label: "Adresse email"
+      old_password:
+        label: "Ancien mot de passe"
+      password:
+        label: "Mot de passe"
+        repeat:
+          label: "Répéter le mot de passe"
+    modal:
+      addPaymentMethods:
+        title: "Ajouter un moyen de paiement"
+        cardNumber: "Numéro de carte"
+        expirationDate: "Date d'expiration"
+        cvc: "CVC"
+        submit: "Add"
+    welcome: "Bienvenue sur votre profil"
+    verification:
+      message: "Votre compte n'est pas encore vérifié. Veuillez vérifier votre boîte de réception et cliquer sur le lien de vérification pour activer votre compte"
+      message2: "N'oubliez pas de vérifier votre dossier de courrier indésirable"
+      message3: "Vous ne voyez pas le mail ?"
+      resend: "Cliquez ici pour renvoyer l'email de vérification"
+      success: "Votre compte a été vérifié avec succès. Vous pouvez maintenant accéder à toutes les fonctionnalités de votre compte"
+      error: "Une erreur s'est produite lors de la vérification de votre compte. Veuillez réessayer"
+      email:
+        sent: "Un email de vérification a été envoyé à votre adresse email. Veuillez vérifier votre boîte de réception et cliquer sur le lien pour activer votre compte"
+    nav:
+      profile: "Profil"
+      main_settings: "Paramètres"
+      payment_settings: "Paramètres de paiement"
+      subscriptions_settings: "Abonnements"
+    main_settings:
+      title: "Paramètres"
+      success: "Vos paramètres ont été mis à jour avec succès"
+      password:
+        not_match: "Les mots de passe ne correspondent pas"
+        invalid_old: "L'ancien mot de passe est incorrect"
+      preference:
+        title: "Préférences"
+        isEnabledSound:
+          label: "Activer le son (Sur la page de création de personnage)"
+        isEnabledMusic:
+          label: "Activer la musique (Sur la page de création de personnage)"
+        isEnabledBetaPreview:
+          label: "Activer la prévisualisation / les fonctionnalités bêta"
+        success: "Vos préférences ont été mises à jour avec succès"
+    payment_settings:
+      title: "Paramètres de paiement"
+      card: "Carte de crédit"
+      add_card: "Ajouter une carte"
+      no_card: "Aucune carte enregistrée"
+      card_added: "La carte a été ajoutée avec succès"
+      card_deleted: "La carte a été supprimée avec succès"
+      delete_card_confirm: "Êtes-vous sûr de vouloir supprimer cette carte ?"
+    subscriptions_settings:
+      title: "Abonnements"
+      products:
+        title: "Fonctionnalités"
