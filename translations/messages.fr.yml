@@ -50,6 +50,8 @@ global:
   women: "Femme"
   men: "Homme"
   other: "Autre"
+  see_more: "Voir plus"
+  my_account: "Mon compte"
   nav:
     home: "Accueil"
     community:
@@ -78,6 +80,26 @@ global:
     quote: "Citation"
     quest: "Quête"
     character: "Joueur"
+  footer:
+    copyrigth: "Tous droits réservés"
+    navigation:
+      title: "Navigation"
+      homepage: "Accueil"
+      community:
+        title: "Communauté"
+        characters: "Personnages"
+        campaigns: "Campagnes"
+      about: "À propos"
+    legal:
+      title: "Légal"
+      legal_notice: "Mentions légales"
+      terms_of_use: "Conditions d'utilisation"
+      cookies: "Cookies"
+    support:
+      title: "Support &<br/>Contributions"
+      translations: "Traduction"
+      feedbacks: "Suggestions & Rapports de bug"
+      contributions: "Contributions"
 maintenance:
   title: "Maintenance"
   message1: "Nous reviendrons"

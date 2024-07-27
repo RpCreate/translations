@@ -50,12 +50,18 @@ global:
   women: "Women"
   men: "Men"
   other: "Other"
+  see_more: "See more"
+  my_account: "My account"
   nav:
     home: "Home"
     community:
       title: "Community"
       character: "Characters"
       campaign: "Campaigns"
+    creator:
+      title: "Creator"
+      character: "Character"
+      campaign: "Campaign"
     profile: "Profile"
     admin: "Admin"
     logout: "Logout"
@@ -74,6 +80,26 @@ global:
     quote: "Quote"
     quest: "Quest"
     character: "Character"
+  footer:
+    copyright: 'All rights reserved'
+    navigation:
+      title: "Navigation"
+      homepage: "Home"
+      community:
+        title: "Community"
+        character: "Characters"
+        campaign: "Campaigns"
+      about: "About"
+    legal:
+      title: "Legal"
+      legal_notice: "Legal notice"
+      terms_of_use: "Terms of use"
+      cookies: "Cookies"
+    support:
+      title: "Support &<br/>Contributions"
+      translations: "Translations"
+      feedbacks: "Feedbacks & Bug report"
+      contributions: "Contributions"
 maintenance:
   title: "Maintenance"
   message1: "We'll be back"
