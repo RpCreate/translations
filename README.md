@@ -6,8 +6,7 @@ Welcome to the RpCreate Translation Project! This repository is dedicated to pro
 1. [About](#about)
 2. [Getting Started](#getting-started)
 3. [Contributing](#contributing)
-4. [Directory Structure](#directory-structure)
-5. [License](#license)
+4. [License](#license)
 
 ## About
 RpCreate is a dynamic website aimed at providing users with the tools they need to create role-playing scenarios. To ensure that as many people as possible can benefit from RpCreate, we are translating the website into multiple languages.
