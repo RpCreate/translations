@@ -12,6 +12,8 @@ email:
       message1: "To verify your account, please click the button below"
       message2: "This link will expire at expiresAt"
 global:
+  accept: "Accept"
+  refuse: "Refuse"
   next: "Next"
   previous: "Previous"
   select: "Select"
@@ -338,6 +340,34 @@ pages:
       explain: "For each characteristic, you will roll 4 dice, keep the 3 highest, and add them together to form your statistic"
       statistics:
         too_low: "If the sum of the mods is less than 3, your character is considered unplayable. You can reroll the dice or continue at your own risk"
+  feedbacks:
+    title: "Feedbacks"
+    seo :
+      title: "Report a Bug or Suggest Improvements"
+      description: "Help us improve our website! Report any bugs or suggest enhancements to ensure a better user experience. Your feedback is valuable and helps us grow."
+      title_create: "Create a feedback"
+      description_create: "Create a feedback to report a bug or suggest improvements. Your feedback is valuable and helps us improve our website. Share your ideas, report any issues, or suggest new features to enhance the user experience. We appreciate your contribution to our community!"
+    create:
+      feedback: "Create a feedback"
+    no_data: "No feedbacks found"
+    back_list: "Back to the list"
+    form:
+      title:
+        label: "Title"
+      description:
+        label: "Description"
+      type:
+        label: "Type"
+        bug: "Bug"
+        translation: "Translation"
+        style: "Style"
+        feature: "Feature"
+    list:
+      title: "Title"
+      author: "Author"
+      createdAt: "Date"
+      status: "Status"
+      actions: "Actions"
   community:
     seo:
       title: 'Hall of Fame : Community'

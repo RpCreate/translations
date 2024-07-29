@@ -12,6 +12,8 @@ email:
       message1: "Pour vérifier votre adresse email, veuillez cliquer sur le lien ci-dessous"
       message2: "Le lien est valable jusqu'au expiresAt"
 global:
+  accept: "Accepter"
+  refuse: "Refuser"
   next: "Suivant"
   previous: "Précédent"
   select: "Sélectionner"
@@ -81,7 +83,7 @@ global:
     quest: "Quête"
     character: "Joueur"
   footer:
-    copyrigth: "Tous droits réservés"
+    copyright: "Tous droits réservés"
     navigation:
       title: "Navigation"
       homepage: "Accueil"
@@ -335,6 +337,34 @@ pages:
       explain: "Pour chaque caractéristique, vous allez lancer 4 dés, les 3 meilleurs seront gardés et additionnés pour former votre statistique"
       statistics:
         too_low: "Si la somme des mods est inférieure à 3, votre personnage est considéré comme injouable. Vous pouvez relancer les dés, ou continuer si vous le souhaitez à vos risques et périls"
+  feedbacks:
+    title: "Suggestions"
+    seo:
+      title: "Remonter un Bug ou Suggérer des Améliorations"
+      description: "Aidez-nous à améliorer notre site web ! Signalez les bugs ou proposez des améliorations pour garantir une meilleure expérience utilisateur. Vos retours sont précieux et nous aident à progresser."
+      title_create: "Créer une suggestion"
+      description_create: "Partagez vos idées pour améliorer le site. Proposez des fonctionnalités, des améliorations ou des corrections pour rendre l'expérience utilisateur encore meilleure. Votre avis est important pour nous !"
+    create:
+      feedback: "Créer une suggestion"
+    no_data: "Aucune suggestion n'a été trouvée"
+    back_list: "Retour à la liste des suggestions"
+    form:
+      title:
+        label: "Titre"
+      description:
+        label: "Description"
+      type:
+        label: "Type"
+        bug: "Bug"
+        translation: "Traduction"
+        style: "Style"
+        feature: "Fonctionnalité"
+    list:
+      title: "Titre"
+      author: "Auteur"
+      createdAt: "Créé le"
+      status: "Statut"
+      actions: "Actions"
   community:
     seo:
       title: 'Taverne des Héros : Partagez vos Personnages et Campagnes!'
