@@ -308,6 +308,14 @@ pages:
     text3: "Today, app_name is the culmination of our commitment to the role-playing community. Our platform is specially designed to streamline character creation and campaign management, starting with the game \"Chroniques Oubliées Fantasy.\" However, our vision doesn't end there. We aspire to become an essential resource for RPG enthusiasts by providing tools and features for a variety of gaming systems. Our ultimate goal is to empower every game master with the means to create memorable and immersive gaming experiences for their players"
     text4: "app_name is first and foremost a project driven by passion and heart. It is a community-driven site where everyone is free to share their ideas to improve the site. Simply create an account and head to the \"Feedback\" menu. Ideas will be considered, and if they align with the developer's vision and the community's, they will be approved and implemented. Additionally, users can track the site's development or engage directly with other users on Discord (french community)"
   creator:
+    loading:
+      title: "Loading"
+      message1: "Registering your character ..."
+      message2: "Modeling your character ..."
+      message3: "Creating your character ..."
+      message4: "Learning the profession class profession_name ..."
+      message5: "Equipping your character ..."
+      message6: "Your character emerges from the shadows ..."
     character:
       title: "Create a new character"
     gender:

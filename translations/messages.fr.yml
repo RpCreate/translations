@@ -305,6 +305,14 @@ pages:
     text4: "app_name est avant tout un projet fait par passion et par cœur. Il est un site communautaire où chacun est libre de partager ses idées pour améliorer le site. Il suffit de créer un compte et de se rendre sur le menu \"Suggestions\". Les idées seront étudiées, et si elles collent avec la vision du développeur et de la communauté, elles seront approuvées et mises en place. De plus, les utilisateurs peuvent suivre le développement du site ou discuter directement avec d'autres utilisateurs sur Discord"
     text5: "Rejoignez-nous dans cette aventure et découvrez tout ce que app_name a à offrir !"
   creator:
+    loading:
+      title: "Chargement en cours"
+      message1: "Enregistrement de votre personnage ..."
+      message2: "Modélisation de votre personnage ..."
+      message3: "Création de votre personnage ..."
+      message4: "Apprentissage de la classe profession_name ..."
+      message5: "Votre personnage s'équipe ..."
+      message6: "Votre personnage sort de l'ombre ..."
     character:
         title: "Créer un nouveau personnage"
     gender:
