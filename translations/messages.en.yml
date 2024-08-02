@@ -413,8 +413,11 @@ pages:
       error: "An error occurred while verifying your account. Please try again"
       email:
         sent: "A verification email has been sent to your email address. Please check your inbox and follow the instructions to verify your account"
+    avatar:
+      success: "Your avatar has been successfully updated"
     nav:
       profile: "Profile"
+      avatar: "Avatar"
       main_settings: "Settings"
       payment_settings: "Payment settings"
       subscriptions_settings: "Subscriptions"

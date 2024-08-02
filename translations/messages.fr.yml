@@ -410,8 +410,11 @@ pages:
       error: "Une erreur s'est produite lors de la vérification de votre compte. Veuillez réessayer"
       email:
         sent: "Un email de vérification a été envoyé à votre adresse email. Veuillez vérifier votre boîte de réception et cliquer sur le lien pour activer votre compte"
+    avatar:
+      success: "Votre avatar a été mis à jour avec succès"
     nav:
       profile: "Profil"
+      avatar: "Avatar"
       main_settings: "Paramètres"
       payment_settings: "Paramètres de paiement"
       subscriptions_settings: "Abonnements"
