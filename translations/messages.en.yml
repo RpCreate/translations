@@ -65,6 +65,7 @@ global:
       character: "Character"
       campaign: "Campaign"
     profile: "Profile"
+    avatar: "Avatar"
     admin: "Admin"
     logout: "Logout"
     login: "Sign in"
