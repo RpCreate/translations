@@ -110,8 +110,8 @@ maintenance:
   message3: "Please check back soon or check the social network"
 pages:
   home:
-    title: "Welcome to app_name"
-    description: "Welcome to app_name, the platform for creating characters and managing campaigns for your role-playing games. Whether you're a game master or a player, app_name offers a user-friendly experience to enhance your RPG adventures. Create unique characters, design thrilling scenarios, and embark on epic quests with your friends. Get started now and bring your campaigns to life!"
+    title: "Forge Your Heroes and Legends: RPG Character and Campaign Creation"
+    description: "Create legendary heroes and epic campaigns for your RPGs. Craft unique stories and characters that bring your fantasy worlds to life."
     title_action: "Get started now"
     login:
       title: "Log in"

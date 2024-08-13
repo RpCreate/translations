@@ -1,7 +1,0 @@
-unknown: "Une erreur inconnue s'est produite"
-not_found: "Cette ressource n'a pas été trouvée"
-unprocessable: "La page ne peut être traitée"
-internal: "Une erreur interne est survenue"
-unavailable : "Service temporairement indisponible"
-
-auth.forbidden: "Vous n'avez pas accès à cette page"
