@@ -117,6 +117,16 @@ pages:
       title: "Se connecter"
     register:
       title: "Rejoins la communauté"
+    explanation:
+      creator:
+        campaign:
+          title: "Créateur de Campagnes RPG Complet : Créez, Reliez et Gérez Vos Campagnes en Toute Simplicité"
+          description: "Notre Créateur de Campagnes RPG vous permet de concevoir des campagnes détaillées en intégrant tous les aspects de votre aventure. Créez facilement des personnages non joueurs (PNJ), générez des statistiques pour les faire combattre vos joueurs, et liez des quêtes à des scénarios spécifiques. Vous pouvez également associer des PNJ à des joueurs pour des quêtes uniques et axées sur l'histoire. Notre système intuitif vous offre les outils nécessaires pour gérer votre campagne, en maintenant tous les éléments connectés et cohérents. Conceptionnez des quêtes épiques, des scénarios et des interactions entre PNJ avec simplicité, pour des campagnes riches, immersives, et adaptées à vos joueurs."
+          button: "Voir des exemples de campagnes"
+        character:
+          title: "Créateur de Personnages RPG Immersif : Construisez des Héros Uniques pour Vos Campagnes"
+          description: "Plongez dans la création de personnages RPG avec notre outil complet et intuitif. Choisissez parmi une multitude de paramètres pour personnaliser vos héros : sélectionnez le genre, la race, les professions, le nom du personnage, ainsi que sa taille et son poids. Notre interface utilisateur immersive vous permet de visualiser en temps réel les différences de taille entre les diverses races, renforçant ainsi l'immersion dans l'univers de votre jeu. Créez des personnages uniques qui donneront vie à vos campagnes et enrichiront vos aventures fantastiques."
+          button: "Voir des exemples de personnages"
     create:
       campaign:
         title: Campagne
@@ -446,3 +456,10 @@ pages:
       title: "Abonnements"
       products:
         title: "Fonctionnalités"
+  character:
+    informations:
+      title: "Informations du personnage"
+    related_content:
+      campaign:
+        title: "Campagnes associées"
+        description: "Découvrez les campagnes auxquelles ce personnage participe"

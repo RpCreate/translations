@@ -117,6 +117,16 @@ pages:
       title: "Log in"
     register:
       title: "Join the community"
+    explanation:
+      creator:
+        campaign:
+          title: "Comprehensive RPG Campaign Builder: Create, Link, and Manage Your Campaigns with Ease"
+          description: "Our RPG Campaign Builder allows you to craft detailed campaigns that include every aspect of your adventure. Easily create non-player characters (NPCs), generate stats for them to engage in combat with your players, and link quests to specific scenarios. You can also associate NPCs with players for unique and story-driven quests. Our intuitive system gives you the tools to manage your campaign, keeping all the elements connected and coherent. Design epic quests, scenarios, and NPC interactions with ease, ensuring your campaigns are rich, immersive, and tailored to your players."
+          button: "See campaign examples"
+        character:
+          title: "Immersive RPG Character Creator: Build Unique Heroes for Your Campaigns"
+          description: "Dive into RPG character creation with our comprehensive and intuitive tool. Customize your heroes with a wide range of parameters: select gender, race, professions, character name, as well as height and weight. Our immersive user interface allows you to visualize the size differences between various races in real time, enhancing your connection to the game world. Create unique characters that bring your campaigns to life and enrich your fantasy adventures."
+          button: "See character examples"
     create:
       campaign:
         title: Campaign
@@ -133,8 +143,8 @@ pages:
       title: "Create a scenario for the campaign"
       description: "Create a scenario for your role-playing games. Define the title, content, objectives, and rewards of your scenario. You can also specify the necessary objects and the minimum number of players required. Whether you're a game master or a player, scenarios are a key element of any RPG campaign. Start creating your scenarios now and challenge your friends to epic adventures!"
     update:
-        title: "Edit the scenario : scenario_name"
-        description: "Edit the scenario for your role-playing games. You can modify the title, content, objectives, rewards, and other details of your scenario. Whether you're a game master or a player, scenarios are an essential part of any RPG campaign. Customize your scenarios to create exciting adventures and challenges for your friends. Get started now and enhance your role-playing experience!"
+      title: "Edit the scenario : scenario_name"
+      description: "Edit the scenario for your role-playing games. You can modify the title, content, objectives, rewards, and other details of your scenario. Whether you're a game master or a player, scenarios are an essential part of any RPG campaign. Customize your scenarios to create exciting adventures and challenges for your friends. Get started now and enhance your role-playing experience!"
     flash:
       success: "The scenario has been successfully created"
       updated: "The scenario has been successfully updated"
@@ -165,8 +175,8 @@ pages:
       deleted: "The quest has been successfully deleted"
   npc:
     index:
-        title: "NPCs of the campaign : campaign_name"
-        description: "Welcome to the NPCs page! Here you can create, edit, and manage NPCs for your role-playing games. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Create unique characters, define their personalities, talents, and affiliations, and add them to your campaign. Get started now and bring your NPCs to life in epic adventures!"
+      title: "NPCs of the campaign : campaign_name"
+      description: "Welcome to the NPCs page! Here you can create, edit, and manage NPCs for your role-playing games. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Create unique characters, define their personalities, talents, and affiliations, and add them to your campaign. Get started now and bring your NPCs to life in epic adventures!"
     create:
       title: "Create a NPC for the campaign"
       description: "Create a NPC for your role-playing games. Define the name, image
@@ -351,7 +361,7 @@ pages:
         too_low: "If the sum of the mods is less than 3, your character is considered unplayable. You can reroll the dice or continue at your own risk"
   feedbacks:
     title: "Feedbacks"
-    seo :
+    seo:
       title: "Report a Bug or Suggest Improvements"
       description: "Help us improve our website! Report any bugs or suggest enhancements to ensure a better user experience. Your feedback is valuable and helps us grow."
       title_create: "Create a feedback"
@@ -449,3 +459,10 @@ pages:
       title: "Subscriptions"
       products:
         title: "Features"
+  character:
+    informations:
+      title: "Character's informations"
+    related_content:
+      campaign:
+        title: "Campaign related to the character"
+        description: "The campaign in which the character is involved"
