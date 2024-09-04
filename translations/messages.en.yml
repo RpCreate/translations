@@ -12,6 +12,7 @@ email:
       message1: "To verify your account, please click the button below"
       message2: "This link will expire at expiresAt"
 global:
+  actions: "Actions"
   accept: "Accept"
   refuse: "Refuse"
   next: "Next"

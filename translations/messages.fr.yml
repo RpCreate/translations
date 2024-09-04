@@ -12,6 +12,7 @@ email:
       message1: "Pour vérifier votre adresse email, veuillez cliquer sur le lien ci-dessous"
       message2: "Le lien est valable jusqu'au expiresAt"
 global:
+  actions: "Actions"
   accept: "Accepter"
   refuse: "Refuser"
   next: "Suivant"
