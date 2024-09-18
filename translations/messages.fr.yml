@@ -111,7 +111,7 @@ maintenance:
   message3: "Merci de revenir plus tard ou de regarder les réseaux sociaux en attendant"
 pages:
   home:
-    title: "Forge tes Héros et Légendes : Création de Personnages et Campagnes RPG"
+    title: "Création de Personnages et Campagnes JDR"
     description: "Créez des héros légendaires et des campagnes épiques pour vos RPG. Concevez des histoires et des personnages uniques qui donnent vie à vos mondes fantastiques."
     title_action: "Commencer dès maintenant !"
     login:

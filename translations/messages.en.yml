@@ -111,7 +111,7 @@ maintenance:
   message3: "Please check back soon or check the social network"
 pages:
   home:
-    title: "Forge Your Heroes and Legends: RPG Character and Campaign Creation"
+    title: "RPG Character and Campaign Creation"
     description: "Create legendary heroes and epic campaigns for your RPGs. Craft unique stories and characters that bring your fantasy worlds to life."
     title_action: "Get started now"
     login:
