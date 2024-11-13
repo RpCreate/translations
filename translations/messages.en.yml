@@ -12,6 +12,8 @@ email:
       message1: "To verify your account, please click the button below"
       message2: "This link will expire at expiresAt"
 global:
+  read:
+    more: "Read more"
   actions: "Actions"
   accept: "Accept"
   refuse: "Refuse"
@@ -57,14 +59,17 @@ global:
   my_account: "My account"
   nav:
     home: "Home"
+    news: "News"
     community:
       title: "Community"
-      character: "Characters"
-      campaign: "Campaigns"
+      characters: "Characters"
+      campaigns: "Campaigns"
+      games: "Games"
     creator:
       title: "Creator"
       character: "Character"
       campaign: "Campaign"
+      games: "Games"
     profile: "Profile"
     avatar: "Avatar"
     admin: "Admin"
@@ -89,10 +94,12 @@ global:
     navigation:
       title: "Navigation"
       homepage: "Home"
+      news: "News"
       community:
         title: "Community"
-        character: "Characters"
-        campaign: "Campaigns"
+        characters: "Characters"
+        campaigns: "Campaigns"
+        games: "Games"
       about: "About"
     legal:
       title: "Legal"
@@ -109,6 +116,47 @@ maintenance:
   message1: "We'll be back"
   message2: "We're busy updating the site for you"
   message3: "Please check back soon or check the social network"
+characterTypes:
+  human:
+    name: "Humain"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  wood_elf:
+    name: "Elf Sylvain"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  dwarf:
+    name: "Nain"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  half_elf:
+    name: "Demi-Elf"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  half_orc:
+    name: "Demi-Orc"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  gnome:
+    name: "Gnome"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  halfling:
+    name: "Halfelin"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  high_elf:
+    name: "Haut-Elf"
+    description: ''
+    abilities: ''
+    typicalNames: ''
 pages:
   home:
     title: "RPG Character and Campaign Creation"
@@ -253,6 +301,8 @@ pages:
     legal_notice: 'Legal notice'
     terms_of_use: 'Terms of use'
   index:
+    your_creation:
+      title: "Your creations"
     choice_create:
       title: "Create a character or a campaign"
       character:
@@ -398,6 +448,13 @@ pages:
       title: "Characters"
     campaigns:
       title: "Campaigns"
+    games:
+      title: "Games"
+    filters:
+      all: "All"
+      characters: "Characters"
+      campaigns: "Campaigns"
+      games: "Games"
   profile:
     settings:
       email:

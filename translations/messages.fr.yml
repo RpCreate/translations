@@ -12,6 +12,8 @@ email:
       message1: "Pour vérifier votre adresse email, veuillez cliquer sur le lien ci-dessous"
       message2: "Le lien est valable jusqu'au expiresAt"
 global:
+  read:
+    more: "Lire la suite"
   actions: "Actions"
   accept: "Accepter"
   refuse: "Refuser"
@@ -57,14 +59,17 @@ global:
   my_account: "Mon compte"
   nav:
     home: "Accueil"
+    news: "Actualités"
     community:
       title: "Communauté"
       characters: "Personnages"
       campaigns: "Campagnes"
+      games: "Jeux"
     creator:
       title: "Créateur"
       character: "Personnage"
       campaign: "Campagne"
+      games: "Jeux"
     profile: "Profil"
     avatar: "Avatar"
     admin: "Administration"
@@ -89,10 +94,12 @@ global:
     navigation:
       title: "Navigation"
       homepage: "Accueil"
+      news: "Actualités"
       community:
         title: "Communauté"
         characters: "Personnages"
         campaigns: "Campagnes"
+        games: "Jeux"
       about: "À propos"
     legal:
       title: "Légal"
@@ -109,6 +116,47 @@ maintenance:
   message1: "Nous reviendrons"
   message2: "Nous sommes occupés à mettre à jour le site pour vous"
   message3: "Merci de revenir plus tard ou de regarder les réseaux sociaux en attendant"
+characterTypes:
+  human:
+    name: "Humain"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  wood_elf:
+    name: "Elf Sylvain"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  dwarf:
+    name: "Nain"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  half_elf:
+    name: "Demi-Elf"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  half_orc:
+    name: "Demi-Orc"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  gnome:
+    name: "Gnome"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  halfling:
+    name: "Halfelin"
+    description: ''
+    abilities: ''
+    typicalNames: ''
+  high_elf:
+    name: "Haut-Elf"
+    description: ''
+    abilities: ''
+    typicalNames: ''
 pages:
   home:
     title: "Création de Personnages et Campagnes JDR"
@@ -250,6 +298,8 @@ pages:
     legal_notice: Mentions légales
     terms_of_use: Conditions d'utilisation
   index:
+    your_creation:
+      title: "Vos créations"
     choice_create:
       title: "Créer un personnage ou une campagne"
       character:
@@ -395,6 +445,13 @@ pages:
       title: 'Personnages'
     campaigns:
       title: 'Campagnes'
+    games:
+      title: 'Jeux'
+    filters:
+      all: 'Tous'
+      characters: 'Personnages'
+      campaigns: 'Campagnes'
+      games: 'Jeux'
   profile:
     settings:
       email:
