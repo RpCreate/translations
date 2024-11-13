@@ -116,29 +116,55 @@ maintenance:
   message1: "We'll be back"
   message2: "We're busy updating the site for you"
   message3: "Please check back soon or check the social network"
+professions:
+  warrior:
+    name: "Warrior"
+    description: "A warrior is a skilled fighter, capable of wielding a variety of weapons and armor."
+    startingEquipment: "A sword, a shield, a ration, a water bottle, a torch, a whetstone, a blanket, a purse with 10 gold pieces."
+    weaponArmor: "All weapons and armor"
+  wizard:
+    name: "Wizard"
+    description: "A wizard is a spellcaster, capable of manipulating magical energies to cast spells."
+    startingEquipment: "A staff, a mage's robe, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    weaponArmor: "Staff"
+  thief:
+    name: "Thief"
+    description: "A thief is an agile and stealthy character, able to sneak anywhere and steal items undetected."
+    startingEquipment: "A dagger, leather armor, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    weaponArmor: "Dagger"
+  priest:
+    name: "Priest"
+    description: "A priest is a character devoted to a god or goddess, capable of casting healing and protective spells."
+    startingEquipment: "A mace, leather armor, a shield, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    weaponArmor: "Mace"
+  ranger:
+    name: "Ranger"
+    description: "A ranger is a character capable of moving swiftly and surviving in hostile environments."
+    startingEquipment: "A longbow, leather armor, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    weaponArmor: "Longbow"
 characterTypes:
   human:
-    name: "Humain"
+    name: "Human"
     description: ''
     abilities: ''
     typicalNames: ''
-  wood_elf:
-    name: "Elf Sylvain"
+  wood-elf:
+    name: "Wood Elf"
     description: ''
     abilities: ''
     typicalNames: ''
   dwarf:
-    name: "Nain"
+    name: "Dwarf"
     description: ''
     abilities: ''
     typicalNames: ''
-  half_elf:
-    name: "Demi-Elf"
+  half-elf:
+    name: "Half-Elf"
     description: ''
     abilities: ''
     typicalNames: ''
-  half_orc:
-    name: "Demi-Orc"
+  half-orc:
+    name: "Half-Orc"
     description: ''
     abilities: ''
     typicalNames: ''
@@ -148,12 +174,12 @@ characterTypes:
     abilities: ''
     typicalNames: ''
   halfling:
-    name: "Halfelin"
+    name: "Halfling"
     description: ''
     abilities: ''
     typicalNames: ''
-  high_elf:
-    name: "Haut-Elf"
+  high-elf:
+    name: "High Elf"
     description: ''
     abilities: ''
     typicalNames: ''

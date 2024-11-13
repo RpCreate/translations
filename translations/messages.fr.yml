@@ -116,13 +116,39 @@ maintenance:
   message1: "Nous reviendrons"
   message2: "Nous sommes occupés à mettre à jour le site pour vous"
   message3: "Merci de revenir plus tard ou de regarder les réseaux sociaux en attendant"
+professions:
+  warrior:
+    name: "Guerrier"
+    description: "Un guerrier est un combattant hors pair, capable de manier toutes les armes et de porter toutes les armures."
+    startingEquipment: "Une épée longue, une armure de cuir, un bouclier, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Toutes les armes et armures"
+  wizard:
+    name: "Magicien"
+    description: "Un magicien est un lanceur de sorts, capable de manipuler les énergies magiques pour lancer des sorts."
+    startingEquipment: "Un bâton, une robe de mage, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Bâton"
+  thief:
+    name: "Voleur"
+    description: "Un voleur est un personnage agile et discret, capable de se faufiler partout et de dérober des objets sans se faire repérer."
+    startingEquipment: "Une dague, une armure de cuir, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Dague"
+  priest:
+    name: "Prêtre"
+    description: "Un prêtre est un personnage dévoué à un dieu ou une déesse, capable de lancer des sorts de guérison et de protection."
+    startingEquipment: "Une masse, une armure de cuir, un bouclier, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Masse"
+  ranger:
+    name: "Rôdeur"
+    description: "Un rôdeur est un personnage capable de se déplacer rapidement et de survivre en milieu hostile."
+    startingEquipment: "Un arc long, une armure de cuir, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    weaponArmor: "Arc long"
 characterTypes:
   human:
     name: "Humain"
     description: ''
     abilities: ''
     typicalNames: ''
-  wood_elf:
+  wood-elf:
     name: "Elf Sylvain"
     description: ''
     abilities: ''
@@ -132,12 +158,12 @@ characterTypes:
     description: ''
     abilities: ''
     typicalNames: ''
-  half_elf:
+  half-elf:
     name: "Demi-Elf"
     description: ''
     abilities: ''
     typicalNames: ''
-  half_orc:
+  half-orc:
     name: "Demi-Orc"
     description: ''
     abilities: ''
@@ -152,7 +178,7 @@ characterTypes:
     description: ''
     abilities: ''
     typicalNames: ''
-  high_elf:
+  high-elf:
     name: "Haut-Elf"
     description: ''
     abilities: ''
