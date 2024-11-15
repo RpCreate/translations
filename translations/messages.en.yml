@@ -1,29 +1,54 @@
+api:
+  error:
+    missing_parameters: "Missing parameter"
+    campaign:
+      not_found: "Campaign not found"
+    game:
+      not_found: "Game not found"
+    user:
+      not_found: "User not found"
+    character_type:
+      not_found: "Breed not found"
+    profession:
+      not_found: "Profession not found"
 error:
   not_found: "Page not found"
+  an_error_occurred:
+    title: "An error occurred"
+    description: "An error occurred while processing your request. Please try again later."
 email:
   subject:
     verification: "Verify your account"
     reset_password: "Reset your password"
   title:
     hello: "Hello!"
-    goodBye: "Cheers!"
+    good_bye: "Cheers!"
   verification:
     email:
       message1: "To verify your account, please click the button below"
       message2: "This link will expire at expiresAt"
 global:
+  status:
+    label: "Status"
+  type: "Type"
   description: "Description"
   gender: "Gender"
   age: "Age"
-  yearsOld: "years old"
+  years_old: "years old"
   size: "Size"
   weight: "Weight"
-  diceOfLife: "Dice of life"
+  dice_of_life: "Dice of life"
   abilities: "Abilities"
   characteristics: "Characteristics"
   value: "Value"
   modifier: "Modifier"
+  upload: "Upload"
+  roles:
+    admin: "Administrator"
+    user: "User"
+  validate: "Validate"
   attributes:
+    title: "Attributes"
     strength: "Strength"
     dexterity: "Dexterity"
     constitution: "Constitution"
@@ -41,7 +66,7 @@ global:
   next: "Next"
   previous: "Previous"
   select: "Select"
-  selectGames:
+  select_games:
     label: "Select the game"
   inactive: "Inactive"
   active: "Active"
@@ -51,8 +76,8 @@ global:
     name: "Name"
     description: "Description"
     price: "Price"
-    chatGPT:
-      description: "Unlock the ChatGPT feature to generate description for your characters or your NPC, quest or scenario"
+    ai:
+      description: "Unlock the ai feature to generate description for your characters or your NPC, quest or scenario"
   connection:
     not:
       secure: "This connection is not secure. Your data may be intercepted. 
@@ -74,10 +99,43 @@ global:
   no: "No"
   show: "Show"
   women: "Women"
+  woman: "Woman"
   men: "Men"
   other: "Other"
   see_more: "See more"
   my_account: "My account"
+  email: "Email"
+  password: "Password"
+  login: "Sign in"
+  logout: "Logout"
+  landmarks: "Landmarks"
+  starting_age: "Starting age"
+  life_expectancy: "Life expectancy"
+  size_min: "Minimum size"
+  size_max: "Maximum size"
+  weight_min: "Minimum weight"
+  weight_max: "Maximum weight"
+  typical_names: "Typical names"
+  starting_equipment: "Starting equipment"
+  weapons_armor: "Weapon and armor"
+  username: "Username"
+  users: "Users"
+  script_historic: "Scripts historic"
+  news: "News"
+  content: "Content"
+  others: "Others"
+  features: "Features"
+  feedbacks: "Feedbacks"
+  feedback: "Feedback"
+  dashboard: "Dashboard"
+  game: "Game"
+  campaign: "Campaign"
+  campaigns: "Campaigns"
+  account: "Account"
+  profession: "Profession"
+  settings: "Settings"
+  characters: "Characters"
+  breed: "Breed"
   nav:
     home: "Home"
     news: "News"
@@ -141,69 +199,69 @@ professions:
   warrior:
     name: "Warrior"
     description: "A warrior is a skilled fighter, capable of wielding a variety of weapons and armor."
-    startingEquipment: "A sword, a shield, a ration, a water bottle, a torch, a whetstone, a blanket, a purse with 10 gold pieces."
+    starting_equipment: "A sword, a shield, a ration, a water bottle, a torch, a whetstone, a blanket, a purse with 10 gold pieces."
     weaponArmor: "All weapons and armor"
   wizard:
     name: "Wizard"
     description: "A wizard is a spellcaster, capable of manipulating magical energies to cast spells."
-    startingEquipment: "A staff, a mage's robe, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    starting_equipment: "A staff, a mage's robe, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
     weaponArmor: "Staff"
   thief:
     name: "Thief"
     description: "A thief is an agile and stealthy character, able to sneak anywhere and steal items undetected."
-    startingEquipment: "A dagger, leather armor, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    starting_equipment: "A dagger, leather armor, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
     weaponArmor: "Dagger"
   priest:
     name: "Priest"
     description: "A priest is a character devoted to a god or goddess, capable of casting healing and protective spells."
-    startingEquipment: "A mace, leather armor, a shield, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    starting_equipment: "A mace, leather armor, a shield, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
     weaponArmor: "Mace"
   ranger:
     name: "Ranger"
     description: "A ranger is a character capable of moving swiftly and surviving in hostile environments."
-    startingEquipment: "A longbow, leather armor, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
+    starting_equipment: "A longbow, leather armor, a survival ration, a flask, a torch, a whetstone, a blanket, a pouch with 10 gold coins."
     weaponArmor: "Longbow"
 characterTypes:
   human:
     name: "Human"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   wood-elf:
     name: "Wood Elf"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   dwarf:
     name: "Dwarf"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   half-elf:
     name: "Half-Elf"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   half-orc:
     name: "Half-Orc"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   gnome:
     name: "Gnome"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   halfling:
     name: "Halfling"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   high-elf:
     name: "High Elf"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
 pages:
   home:
     title: "RPG Character and Campaign Creation"
@@ -275,8 +333,7 @@ pages:
       description: "Welcome to the NPCs page! Here you can create, edit, and manage NPCs for your role-playing games. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Create unique characters, define their personalities, talents, and affiliations, and add them to your campaign. Get started now and bring your NPCs to life in epic adventures!"
     create:
       title: "Create a NPC for the campaign"
-      description: "Create a NPC for your role-playing games. Define the name, image
-        localisation, likes, hates, personality, situation, talent, resources, affiliation, type, and profession of your NPC. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Start creating your NPCs now and bring unique characters to your adventures!"
+      description: "Create a NPC for your role-playing games. Define the name, image localisation, likes, hates, personality, situation, talent, resources, affiliation, type, and profession of your NPC. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Start creating your NPCs now and bring unique characters to your adventures!"
     update:
       title: "Edit the NPC : npc_name"
       description: "Edit the NPC for your role-playing games. You can modify the name, image, localisation, likes, hates, personality, situation, talent, resources, affiliation, type, and profession of your NPC. Whether you're a game master or a player, NPCs are an essential part of any RPG campaign. Customize your NPCs to create unique characters and bring them to life in epic adventures!"
@@ -359,6 +416,7 @@ pages:
         img:
           alt: "Create a campaign for COF"
   campaign:
+    no_master: "No master"
     create:
       title: "Create a campaign"
       description: "Create a campaign for your role-playing games. You can add players, quests, scenarios, and NPCs to your campaign"
@@ -366,8 +424,11 @@ pages:
       title: "Edit the campaign : campaign_name"
       description: "Edit the campaign for your role-playing games. You can add players, quests, scenarios, and NPCs to your campaign"
     add_player:
-      title: "Add a player to the campaign : campaign_name"
+      title: "Add a player"
       description: "Add a player to the campaign : campaign_name"
+      placeholder: "Name of the player"
+      label: "Name of the player"
+      choose_character: "Choose a character"
     title:
       start: "The campaign of "
     nav:
@@ -382,17 +443,12 @@ pages:
         title: "Title"
         content: "Content"
         actions: "Actions"
-    master: Master
-    createdBy: Created by
-    addPlayer:
-      title: "Add a player"
-      placeholder: "Name of the player"
-      label: "Name of the player"
-      chooseCharacter: "Choose a character"
+    master: "Master"
+    created_by: "Created by"
     edit:
       description_help: "Attention, if you add quests or scenarios, they will be visible to everyone"
     modal:
-      addOrEditMaster:
+      add_or_edit_master:
         title: "Add or edit the master of the game"
         placeholder: "Name of the game master"
         label: "Name of the game master"
@@ -445,7 +501,7 @@ pages:
     name:
       label: 'Name'
       placeholder: 'Enter the name of'
-      suggestButton: 'Click here to suggest a name'
+      suggest_button: 'Click here to suggest a name'
       missing: 'The name is missing'
     description:
       label: 'Description'
@@ -513,10 +569,10 @@ pages:
         repeat:
           label: "Repeat password"
     modal:
-      addPaymentMethods:
+      add_payment_methods:
         title: "Add a payment method"
-        cardNumber: "Card number"
-        expirationDate: "Expiration date"
+        card_number: "Card number"
+        expiration_date: "Expiration date"
         cvc: "CVC"
         submit: "Add"
     welcome: "Welcome to your new profile page!"
@@ -543,13 +599,17 @@ pages:
       password:
         not_match: "The passwords do not match"
         invalid_old: "The old password is invalid"
+        empty: "The password is empty"
+        empty_old: "The old password is empty"
+      email:
+        empty: "The email is empty"
       preference:
         title: "Preferences"
-        isEnabledSound:
+        is_enabled_sound:
           label: "Enable sound (In Character creation)"
-        isEnabledMusic:
+        is_enabled_music:
           label: "Enable music (In Character creation)"
-        isEnabledBetaPreview:
+        is_enabled_beta_preview:
           label: "Enable beta preview/features"
         success: "Your preferences have been successfully updated"
     payment_settings:
@@ -560,14 +620,21 @@ pages:
       card_added: "Card added successfully"
       card_deleted: "Card deleted successfully"
       delete_card_confirm: "Are you sure you want to delete this card?"
+      invalid_data: "Invalid data"
+      user_not_found: "User not found"
     subscriptions_settings:
       title: "Subscriptions"
       products:
         title: "Features"
   character:
-    informations:
+    information:
       title: "Character's informations"
     related_content:
       campaign:
         title: "Campaign related to the character"
         description: "The campaign in which the character is involved"
+  reset_password:
+    title: "Reset your password"
+    request:
+      description: "Enter your email address, and we will send you a link to reset your password."
+      button: "Send reset link"

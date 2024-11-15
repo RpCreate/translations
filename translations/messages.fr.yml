@@ -1,29 +1,54 @@
+api:
+  error:
+    missing_parameters: "Paramètres manquants"
+    campaign:
+      not_found: "Campagne introuvable"
+    game:
+      not_found: "Jeu introuvable"
+    user:
+      not_found: "Utilisateur introuvable"
+    character_type:
+      not_found: "Race introuvable"
+    profession:
+      not_found: "Profession introuvable"
 error:
-  not_found: "Page non trouvée"
+  notFound: "Page non trouvée"
+  an_error_occurred:
+    title: "Une erreur est survenue"
+    description: "Une erreur est survenue lors du chargement de la page. Veuillez réessayer plus tard"
 email:
   subject:
     verification: "Vérification de votre adresse email"
     reset_password: "Réinitialisation de votre mot de passe"
   title:
     hello: "Bonjour!"
-    goodBye: "À bientôt!"
+    good_bye: "À bientôt!"
   verification:
     email:
       message1: "Pour vérifier votre adresse email, veuillez cliquer sur le lien ci-dessous"
       message2: "Le lien est valable jusqu'au expiresAt"
 global:
+  status:
+    label: "Statut"
+  type: "Type"
   description: "Description"
   gender: "Genre"
   age: "Âge"
-  yearsOld: "ans"
+  years_old: "ans"
   size: "Taille"
   weight: "Poids"
-  diceOfLife: "Dés de vie"
+  dice_of_life: "Dés de vie"
   abilities: "Caractéristiques"
   characteristics: "Caractéristiques"
   value: "Valeur"
   modifier: "Modificateur"
+  upload: "Téléverser"
+  roles:
+    admin: "Administrateur"
+    user: "Utilisateur"
+  validate: "Validate"
   attributes:
+    title: "Attributs"
     strength: "Force"
     dexterity: "Dextérité"
     constitution: "Constitution"
@@ -41,43 +66,76 @@ global:
   next: "Suivant"
   previous: "Précédent"
   select: "Sélectionner"
-  selectGames:
+  select_games:
     label: "Sélectionnez un jeu"
   inactive: "Inactif"
   active: "Actif"
   total: "Total"
   create: "Créer"
   product:
-    name: "Nom"
     description: "Description"
+    name: "Nom"
     price: "Prix"
-    chatGPT:
+    ai:
       description: "Utilisez l'ia pour générer des descriptions de personnages, de PNJ ou pour vous aider à écrire des scénarios de campagne"
   connection:
     not:
       secure: "Attention, vous n'êtes pas en mode sécurisé. Vos informations peuvent être interceptées.
             Pour votre sécurité, toutes les fonctionnalités liées aux paiements sont désactivés"
-  save: Sauvegarder
-  back: Retour
-  submit: Envoyer
-  close: Fermer
-  preview: Prévisualiser
-  form: Formulaire
-  delete: Supprimer
-  edit: Modifier
-  update: Mettre à jour
-  add: Ajouter
+  save: "Sauvegarder"
+  back: "Retour"
+  submit: "Envoyer"
+  close: "Fermer"
+  preview: "Prévisualiser"
+  form: "Formulaire"
+  delete: "Supprimer"
+  edit: "Modifier"
+  update: "Mettre à jour"
+  add: "Ajouter"
   registration_success: "Votre compte a été créé avec succès"
   registration_error: "Une erreur s'est produite lors de la création de votre compte. Veuillez réessayer"
   facultative_field: "(optionnel)"
   yes: "Oui"
   no: "Non"
   show: "Voir"
-  women: "Femme"
+  woman: "Femme"
+  women: "Femmes"
   men: "Homme"
   other: "Autre"
   see_more: "Voir plus"
   my_account: "Mon compte"
+  email: "Email"
+  password: "Mot de passe"
+  login: "Se connecter"
+  logout: "Déconnexion"
+  landmarks: "Repères"
+  starting_age: "Âge de départ"
+  life_expectancy: "Espérance de vie"
+  size_min: "Taille minimale"
+  size_max: "Taille maximale"
+  weight_min: "Poids minimal"
+  weight_max: "Poids maximal"
+  typical_names: "Noms typiques"
+  starting_equipment: "Équipement de départ"
+  weapons_armor: "Armes et armures"
+  username: "Nom d'utilisateur"
+  users: "Utilisateurs"
+  script_historic: "Historique des scripts"
+  news: "Actualités"
+  content: "Contenu"
+  others: "Autres"
+  features: "Fonctionnalités"
+  feedbacks: "Suggestions"
+  feedback: "Suggestion"
+  dashboard: "Tableau de bord"
+  game: "Jeu"
+  campaign: "Campagne"
+  campaigns: "Campagnes"
+  account: "Compte"
+  profession: "Profession"
+  settings: "Paramètres"
+  characters: "Personnages"
+  breed: "Race"
   nav:
     home: "Accueil"
     news: "Actualités"
@@ -141,69 +199,69 @@ professions:
   warrior:
     name: "Guerrier"
     description: "Un guerrier est un combattant hors pair, capable de manier toutes les armes et de porter toutes les armures."
-    startingEquipment: "Une épée longue, une armure de cuir, un bouclier, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    starting_equipment: "Une épée longue, une armure de cuir, un bouclier, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
     weaponArmor: "Toutes les armes et armures"
   wizard:
     name: "Magicien"
     description: "Un magicien est un lanceur de sorts, capable de manipuler les énergies magiques pour lancer des sorts."
-    startingEquipment: "Un bâton, une robe de mage, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    starting_equipment: "Un bâton, une robe de mage, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
     weaponArmor: "Bâton"
   thief:
     name: "Voleur"
     description: "Un voleur est un personnage agile et discret, capable de se faufiler partout et de dérober des objets sans se faire repérer."
-    startingEquipment: "Une dague, une armure de cuir, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    starting_equipment: "Une dague, une armure de cuir, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
     weaponArmor: "Dague"
   priest:
     name: "Prêtre"
     description: "Un prêtre est un personnage dévoué à un dieu ou une déesse, capable de lancer des sorts de guérison et de protection."
-    startingEquipment: "Une masse, une armure de cuir, un bouclier, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    starting_equipment: "Une masse, une armure de cuir, un bouclier, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
     weaponArmor: "Masse"
   ranger:
     name: "Rôdeur"
     description: "Un rôdeur est un personnage capable de se déplacer rapidement et de survivre en milieu hostile."
-    startingEquipment: "Un arc long, une armure de cuir, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
+    starting_equipment: "Un arc long, une armure de cuir, une ration de survie, une gourde, une torche, une pierre à aiguiser, une couverture, une bourse avec 10 pièces d'or."
     weaponArmor: "Arc long"
 characterTypes:
   human:
     name: "Humain"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   wood-elf:
     name: "Elf Sylvain"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   dwarf:
     name: "Nain"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   half-elf:
     name: "Demi-Elf"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   half-orc:
     name: "Demi-Orc"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   gnome:
     name: "Gnome"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   halfling:
     name: "Halfelin"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
   high-elf:
     name: "Haut-Elf"
     description: ''
     abilities: ''
-    typicalNames: ''
+    typical_names: ''
 pages:
   home:
     title: "Création de Personnages et Campagnes JDR"
@@ -341,9 +399,11 @@ pages:
       username_already_exists: "Ce nom d'utilisateur est déjà utilisé"
       email_invalid: "Email invalide"
   footer:
-    about: A propos
-    legal_notice: Mentions légales
-    terms_of_use: Conditions d'utilisation
+    copyright: "Tous droits réservés"
+    feedback: "Suggestions"
+    about: "A propos"
+    legal_notice: "Mentions légales"
+    terms_of_use: "Conditions d'utilisations"
   index:
     your_creation:
       title: "Vos créations"
@@ -356,6 +416,7 @@ pages:
         img:
           alt: "Créer une campagne pour COF"
   campaign:
+    no_master: "Aucun maître du jeu"
     create:
       title: "Créer une campagne"
       description: "Créez une campagne pour vos parties de jeu de rôle. Ajoutez des scénarios, des quêtes, des PNJ et des joueurs pour une expérience de jeu immersive"
@@ -363,8 +424,11 @@ pages:
       title: "Modifier la campagne : campaign_name"
       description: "Modifiez les détails de votre campagne, ajoutez ou supprimez des scénarios, des quêtes, des PNJ et des joueurs pour personnaliser votre expérience de jeu"
     add_player:
-      title: "Ajouter un joueur à la campagne : campaign_name"
+      title: "Ajouter un joueur"
       description: "Ajoutez un joueur à votre campagne pour qu'il puisse participer à vos aventures de jeu de rôle"
+      placeholder: "Nom du joueur"
+      label: "Nom du joueur"
+      choose_character: "Choisissez un personnage"
     title:
       start: "La campagne de "
     nav:
@@ -380,16 +444,11 @@ pages:
         content: "Contenu"
         actions: "Actions"
     master: "Maître du jeu "
-    createdBy: "Créé par "
-    addPlayer:
-      title: "Ajouter un joueur"
-      placeholder: "Nom du joueur"
-      label: "Nom du joueur"
-      chooseCharacter: "Choisissez un personnage"
+    created_by: "Créé par "
     edit:
       description_help: "Attention, si vous ajoutez des quêtes ou des scénarios, ils seront visibles par tout le monde"
     modal:
-      addOrEditMaster:
+      add_or_edit_master:
         title: "Ajouter ou modifier un maître du jeu"
         placeholder: "Nom du maître du jeu"
         label: "Nom du maître du jeu"
@@ -442,7 +501,7 @@ pages:
     name:
       label: "Nom"
       placeholder: "Nom"
-      suggestButton: "Cliquer ici pour avoir une suggestion"
+      suggest_button: "Cliquer ici pour avoir une suggestion"
       missing: "Le nom est manquant"
     description:
       label: "Description"
@@ -510,10 +569,10 @@ pages:
         repeat:
           label: "Répéter le mot de passe"
     modal:
-      addPaymentMethods:
+      add_payment_methods:
         title: "Ajouter un moyen de paiement"
-        cardNumber: "Numéro de carte"
-        expirationDate: "Date d'expiration"
+        card_number: "Numéro de carte"
+        expiration_date: "Date d'expiration"
         cvc: "CVC"
         submit: "Add"
     welcome: "Bienvenue sur votre profil"
@@ -540,13 +599,17 @@ pages:
       password:
         not_match: "Les mots de passe ne correspondent pas"
         invalid_old: "L'ancien mot de passe est incorrect"
+        empty: "Le mot de passe ne peut pas être vide"
+        empty_old: "L'ancien mot de passe ne peut pas être vide"
+      email:
+        empty: "L'email ne peut pas être vide"
       preference:
         title: "Préférences"
-        isEnabledSound:
+        is_enabled_sound:
           label: "Activer le son (Sur la page de création de personnage)"
-        isEnabledMusic:
+        is_enabled_music:
           label: "Activer la musique (Sur la page de création de personnage)"
-        isEnabledBetaPreview:
+        is_enabled_beta_preview:
           label: "Activer la prévisualisation / les fonctionnalités bêta"
         success: "Vos préférences ont été mises à jour avec succès"
     payment_settings:
@@ -557,14 +620,21 @@ pages:
       card_added: "La carte a été ajoutée avec succès"
       card_deleted: "La carte a été supprimée avec succès"
       delete_card_confirm: "Êtes-vous sûr de vouloir supprimer cette carte ?"
+      invalid_data: "Les données de la carte sont invalides"
+      user_not_found: "Utilisateur non trouvé"
     subscriptions_settings:
       title: "Abonnements"
       products:
         title: "Fonctionnalités"
   character:
-    informations:
+    information:
       title: "Informations du personnage"
     related_content:
       campaign:
         title: "Campagnes associées"
         description: "Découvrez les campagnes auxquelles ce personnage participe"
+  reset_password:
+    title: "Réinitialiser votre mot de passe"
+    request:
+      description: "Entrez votre adresse email pour recevoir un lien de réinitialisation de mot de passe"
+      button: "Envoyer le lien de réinitialisation"
