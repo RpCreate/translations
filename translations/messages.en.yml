@@ -28,6 +28,8 @@ email:
       message1: "To verify your account, please click the button below"
       message2: "This link will expire at expiresAt"
 global:
+  no_records: "No records found"
+  version: "Version"
   status:
     label: "Status"
   type: "Type"
@@ -43,6 +45,8 @@ global:
   value: "Value"
   modifier: "Modifier"
   upload: "Upload"
+  reset_password: "Reset password"
+  logged_as: "Logged as"
   roles:
     admin: "Administrator"
     user: "User"
@@ -263,6 +267,10 @@ characterTypes:
     abilities: ''
     typical_names: ''
 pages:
+  change_password:
+    password:
+      label: "Please enter a password"
+      min_length: "Your password should be at least 8 characters"
   home:
     title: "RPG Character and Campaign Creation"
     description: "Create legendary heroes and epic campaigns for your RPGs. Craft unique stories and characters that bring your fantasy worlds to life."
@@ -289,6 +297,8 @@ pages:
   feedback:
     title: Feedback
     description: "Welcome to the feedback page! Here you can share your ideas and suggestions to improve the site. Your feedback is valuable to us, and we appreciate your contribution to our community. Feel free to share your thoughts, report bugs, or suggest new features. We look forward to hearing from you!"
+    actions:
+      add: "Add a feedback"
   scenario:
     index:
       title: "Scenarios of the campaign : campaign_name"
@@ -460,6 +470,22 @@ pages:
         quest: "Add a quest"
         scenario: "Add a scenario"
         npc: "Add a Non Player Character"
+    npc:
+      list:
+        name:
+          label: "Name"
+        is_main:
+          label: "Main NPC?"
+        actions:
+          label: "Actions"
+        localisation:
+          label: "Localisation"
+        personality:
+          label: "Personality"
+        situation:
+          label: "Situation"
+        talent:
+          label: "Talent"
   about:
     seo:
       title: "RPG Character Creation and Campaign Management - About us"
@@ -472,6 +498,7 @@ pages:
     title3: "Our Mission"
     text3: "Today, app_name is the culmination of our commitment to the role-playing community. Our platform is specially designed to streamline character creation and campaign management, starting with the game \"Chroniques Oubliées Fantasy.\" However, our vision doesn't end there. We aspire to become an essential resource for RPG enthusiasts by providing tools and features for a variety of gaming systems. Our ultimate goal is to empower every game master with the means to create memorable and immersive gaming experiences for their players"
     text4: "app_name is first and foremost a project driven by passion and heart. It is a community-driven site where everyone is free to share their ideas to improve the site. Simply create an account and head to the \"Feedback\" menu. Ideas will be considered, and if they align with the developer's vision and the community's, they will be approved and implemented. Additionally, users can track the site's development or engage directly with other users on Discord (french community)"
+    text5: "Join us on this adventure and discover all that app_name has to offer!"
   creator:
     loading:
       title: "Loading"
@@ -612,6 +639,13 @@ pages:
         is_enabled_beta_preview:
           label: "Enable beta preview/features"
         success: "Your preferences have been successfully updated"
+        measurement_system:
+          label: "Measurement system"
+          metric: "Metric"
+          imperial: "Imperial"
+          chinese: "Chinese"
+          japanese: "Japanese"
+          nautical: "Nautical"
     payment_settings:
       title: "Payment settings"
       card: "Card"

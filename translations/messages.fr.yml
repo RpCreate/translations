@@ -12,7 +12,7 @@ api:
     profession:
       not_found: "Profession introuvable"
 error:
-  notFound: "Page non trouvée"
+  not_found: "Page non trouvée"
   an_error_occurred:
     title: "Une erreur est survenue"
     description: "Une erreur est survenue lors du chargement de la page. Veuillez réessayer plus tard"
@@ -28,6 +28,8 @@ email:
       message1: "Pour vérifier votre adresse email, veuillez cliquer sur le lien ci-dessous"
       message2: "Le lien est valable jusqu'au expiresAt"
 global:
+  no_records: "Aucun enregistrement trouvé"
+  version: "Version"
   status:
     label: "Statut"
   type: "Type"
@@ -43,6 +45,8 @@ global:
   value: "Valeur"
   modifier: "Modificateur"
   upload: "Téléverser"
+  reset_password: "Réinitialiser le mot de passe"
+  logged_as: "Connecté en tant que"
   roles:
     admin: "Administrateur"
     user: "Utilisateur"
@@ -263,6 +267,10 @@ characterTypes:
     abilities: ''
     typical_names: ''
 pages:
+  change_password:
+    password:
+      label: "Veuillez saisir un mot de passe"
+      min_length: "Le mot de passe doit contenir au moins 8 caractères"
   home:
     title: "Création de Personnages et Campagnes JDR"
     description: "Créez des héros légendaires et des campagnes épiques pour vos RPG. Concevez des histoires et des personnages uniques qui donnent vie à vos mondes fantastiques."
@@ -289,6 +297,8 @@ pages:
   feedback:
     title: Suggestions
     description: "Bienvenue dans la section des suggestions. Vous pouvez ici partager vos idées pour améliorer le site. N'hésitez pas à proposer des fonctionnalités, des améliorations ou des corrections. Votre avis est important pour nous !"
+    actions:
+      add: "Ajouter une suggestion"
   scenario:
     index:
       title: "Scénarios de la campagne : campaign_name"
@@ -459,6 +469,23 @@ pages:
         player: "Ajouter un joueur"
         quest: "Ajouter une quête"
         scenario: "Ajouter un scénario"
+        npc: "Ajouter un PNJ"
+    npc:
+      list:
+        name:
+          label: "Nom"
+        is_main:
+          label: "PNJ principal ?"
+        actions:
+          label: "Actions"
+        localisation:
+          label: "Localisation"
+        personality:
+          label: "Personnalité"
+        situation:
+          label: "Situation"
+        talent:
+          label: "Talent"
   about:
     seo:
       title: "Création de Personnages et Gestion de Campagnes de JDR - À Propos de nous"
@@ -612,6 +639,13 @@ pages:
         is_enabled_beta_preview:
           label: "Activer la prévisualisation / les fonctionnalités bêta"
         success: "Vos préférences ont été mises à jour avec succès"
+      measurement_system:
+        label: "Measurement system"
+        metric: "Metric"
+        imperial: "Imperial"
+        chinese: "Chinese"
+        japanese: "Japanese"
+        nautical: "Nautical"
     payment_settings:
       title: "Paramètres de paiement"
       card: "Carte de crédit"
