@@ -62,6 +62,7 @@ global:
     magic: "Magic"
     attack: "Attack"
     distance_attack: "Distance attack"
+    defense: "Defense"
   read:
     more: "Read more"
   actions: "Actions"
